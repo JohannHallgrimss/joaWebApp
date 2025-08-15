@@ -57,6 +57,6 @@ export default defineConfig({
             key: fs.readFileSync(keyFilePath),
             cert: fs.readFileSync(certFilePath),
         },
-        base:"/joawebapp.client"
+        base: "/joaWebApp/"
     }
 })
